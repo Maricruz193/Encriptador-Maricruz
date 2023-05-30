@@ -37,7 +37,7 @@ main{ /*aqui separo la caja una de la otra*/
 .mensaje{
     height: 630px;
     background: white;
-    background-image: url("/imagenes/Muñeco.png");
+    background-image: url("imagenes/Muñeco.png");
     background-repeat: no-repeat; /*para que no se repita la imagen*/
     background-position: center;
     border: none;
