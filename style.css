@@ -119,14 +119,7 @@ footer {
 }
 
 /********aqui lo responsivo***************************/
-@media screen and (max-width: 1400px){
-    main .input{
-        width: 60vw;
-    }
-    main .output{
-        width: 35vw;
-    }
-}
+
 
 @media screen and (min-width:480px) and (max-width:900px){
     body{
