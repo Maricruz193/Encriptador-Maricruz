@@ -117,3 +117,20 @@ footer {
     font-size: 13px;
     margin:20px;
 }
+
+/********aqui lo responsivo***************************/
+/*si el navegador encuentra una pantalla de menor o igual a 480 aplica esta condiciones*/
+@media screen and (max-width:480px){ /**para hacerlo responsivo lo q declare en html si encunetras una pantalla con hasta 480pixeles le aplicamos:*/
+    h1{ /*aqui centralizo logo*/
+        text-align: center;
+    }
+    nav{ /*aqui centro el panel en medio */
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video { /*ajusta en automatico de todo lo declarado*/
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{/*que se ajuste lo declarado*/
+        width: 100%;
+    }
+}
