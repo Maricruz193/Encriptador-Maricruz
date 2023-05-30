@@ -139,4 +139,10 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+	
+	footer{
+        position: relative;
+        top: 400px;
+    }
+	
 	}
